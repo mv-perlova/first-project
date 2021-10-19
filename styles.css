@@ -1,0 +1,39 @@
+body {
+  color:#2F80EE;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.boxes {
+  height: 190px;
+  width: 520px;
+  margin: 110px auto 0;
+  text-align: center;
+}
+
+.mstk {
+  text-align: center;
+  width: 420px;
+  height: 140px;
+  margin: auto;
+}
+.mstk h1 {
+  margin: 10px auto;
+  font-size: 122px;
+  font-weight: 400;
+}
+.mstk_hidden {
+  margin-top: 22px;
+}
+.mstk .mstk_hidden {
+  visibility: hidden;
+}
+
+.mstk:hover .mstk_hidden {
+ visibility: visible;
+}
+
+.footer h4 {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 350;
+}
